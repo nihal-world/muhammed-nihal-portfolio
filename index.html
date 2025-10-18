@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Nihal P - Professional CV</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom font import for professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+        }
+        .section-header {
+            border-bottom: 2px solid #3b82f6; /* Blue border accent */
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+            border: 2px solid #f4f7f9; /* Match background for clean cut */
+            z-index: 10;
+        }
+        .timeline-item:not(:last-child)::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 15px;
+            bottom: -5px;
+            width: 2px;
+            background-color: #bfdbfe; /* Light blue line */
+            z-index: 5;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header Card: Profile and Contact -->
+        <div class="bg-white shadow-xl rounded-2xl p-6 mb-8 border-t-8 border-indigo-600">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                <div>
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-1">Muhammed Nihal P</h1>
+                    <p class="text-xl text-indigo-600 font-semibold mb-4">MBA HR & Healthcare Management | B.Tech Mechanical</p>
+
+                    <div class="flex flex-wrap gap-4 text-gray-600 text-sm">
+                        
+                        <!-- Contact Numbers (NEW) -->
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-phone-alt text-indigo-500"></i>
+                            <span>8304992235 | 6282530386</span>
+                        </div>
+                        
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-envelope text-indigo-500"></i>
+                            <span>parayilmuhammednihal@gmail.com</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-map-marker-alt text-indigo-500"></i>
+                            <span>Kummanam po Elampara, Kannur, Kerala, India (670595)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Media Links (UPDATED) -->
+                <div class="mt-4 sm:mt-0 flex flex-wrap gap-3 justify-start sm:justify-end">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/muhammed-nihal-parayil" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150 ease-in-out">
+                        <i class="fab fa-linkedin mr-2"></i>
+                        LinkedIn
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/muhammed_nihal_p?igsh=MWZ2MXRobXBlbDFpYg==" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-md text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition duration-150 ease-in-out">
+                        <i class="fab fa-instagram mr-2"></i>
+                        Instagram
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/qr/U7%E2%80%A6" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-150 ease-in-out">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Objective (REFINED) -->
+        <div class="bg-white shadow-lg rounded-xl p-6 mb-8">
+            <h2 class="text-2xl font-bold section-header pb-2 text-indigo-700 mb-4">Professional Objective</h2>
+            <p class="text-gray-700 leading-relaxed">
+                <b>Hello, and welcome!</b>
+<p>
+I’m a Mechanical Engineer by background with a growing passion and focus on Human Resource Management and Healthcare Operations. My journey began with a deep interest in how systems work—how to design, improve, and manage them efficiently. Over time, I realized my curiosity extended beyond machines and processes to include people, teams, and organizational dynamics.
+
+With hands-on experience as a Graduate Trainee, I’ve developed strong problem-solving, analytical, and project management skills. I’m also certified in Data Analytics with Python, which has enabled me to make data-driven decisions across both technical and people-oriented challenges.
+
+Now, I’m combining my engineering mindset with a human-centered approach to help organizations build better systems—from streamlining HR operations to enhancing healthcare workflows. I’m particularly interested in roles and projects where I can bridge the gap between technical excellence and people-first thinking.
+
+Whether you're here to view my portfolio, explore my background, or connect professionally—thank you for stopping by. I'm always open to learning, collaborating, and contributing to meaningful work in Engineering, HR, and Healthcare Operations.
+           </p> </p>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- Left Column (Skills & Achievements) -->
+            <div class="lg:col-span-1 space-y-8">
+
+                <!-- Skills -->
+                <div class="bg-white shadow-lg rounded-xl p-6">
+                    <h2 class="text-2xl font-bold section-header pb-2 text-indigo-700 mb-4">Skills</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-medium rounded-full shadow-sm">Solidworks</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-medium rounded-full shadow-sm">Data Analytics with Python</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-medium rounded-full shadow-sm">Research & Analysis</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-medium rounded-full shadow-sm">Communication</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-medium rounded-full shadow-sm">Leadership</span>
+                        
+                    </div>
+                </div>
+              
+
+                <!-- Achievements -->
+                <div class="bg-white shadow-lg rounded-xl p-6">
+                    <h2 class="text-2xl font-bold section-header pb-2 text-indigo-700 mb-4">Achievements & Certifications</h2>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-certificate text-green-500 mt-1"></i>
+                            <p>Certified in <b>Data Analytics with Python</b> from <b>IIT Roorkee</b> (Jan - Apr 2023).</p>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-trophy text-yellow-500 mt-1"></i>
+                            <p>Secured <b>Second Place</b> in the <b>ONLINE JUNKYARD</b> hosted by <b>IEEE Student Branch GECT</b> (June 2021).</p>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-user-tie text-blue-500 mt-1"></i>
+                            <p>Served as <b>Mechanical Representative</b> in the <b>College Union</b>(2024).</p>
+                        </li>
+                    </ul>
+                </div>
+
+                  <!---certificates-->
+                 <div class="bg-white shadow-xl rounded-2xl p-6 mb-8 border-t-8 border-indigo-600">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h2 class="text-3xl font-bold section-header pb-2 text-indigo-700 mb-4">Certifications</h2>
+                    <p class="text-xl text-black-600 font-semibold">Showcasing Projects, Achievements, and Work Samples</p>
+                </div>
+                <a href="certificates.html" class="inline-flex items-center px-4 py-5 border border-transparent text-sm font-medium rounded-full shadow-md text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-150 ease-in-out">
+                 <i class="fas fa-arrow-right mr-2"></i> Certificates
+                </a>
+            </div>
+        </div>
+
+            </div>
+
+            <!-- Right Column (Experience & Education Timeline) -->
+            <div class="lg:col-span-2 space-y-8">
+                                <!-- Education -->
+                <div class="bg-white shadow-lg rounded-xl p-6">
+                    <h2 class="text-2xl font-bold section-header pb-2 text-indigo-700 mb-4">Education</h2>
+                    <div class="relative pl-6">
+
+                        <!-- Item 1 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">2024 - 2026 </p>
+                            <h3 class="text-lg font-semibold text-gray-900">MBA (Human Resource & Healthcare Management)</h3>
+                            <p class="text-indigo-600 font-medium">Chinmaya Institute of Technology, Kannur</p>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">2020 - 2024</p>
+                            <h3 class="text-lg font-semibold text-gray-900">B.Tech (Mechanical Engineering)</h3>
+                            <p class="text-indigo-600 font-medium">College of Engineering Munnar</p>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">2018 - 2020</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Computer Science and Information Technology</h3>
+                            <p class="text-indigo-600 font-medium">Government Vocational Higher Secondary School, Edayannur</p>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="timeline-item relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">2017 - 2018</p>
+                            <h3 class="text-lg font-semibold text-gray-900">High School Education</h3>
+                            <p class="text-indigo-600 font-medium">Majlis English Medium School</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Professional Experience -->
+                <div class="bg-white shadow-lg rounded-xl p-6">
+                    <h2 class="text-2xl font-bold section-header pb-2 text-indigo-700 mb-4">Professional Experience & Internships</h2>
+                    <div class="relative pl-6">
+
+                        <!-- Item 1 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">October 2024 - December 2024</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Bodyshop Advisor</h3>
+                            <p class="text-indigo-600 font-medium">Apco Hyundai, Kannur</p>
+                            <p class="text-gray-700 text-sm mt-1">Applied technical knowledge and customer service skills in a fast-paced automotive environment.</p>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">June 2024 - October 2024</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Graduate Engineering Trainee</h3>
+                            <p class="text-indigo-600 font-medium">ZF Commercial Vehicle Control System</p>
+                            <p class="text-gray-700 text-sm mt-1">Gained hands-on experience in engineering processes and control systems within a leading commercial vehicle component manufacturer.</p>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">October 2025</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Project Intern (Healthcare)</h3>
+                            <p class="text-indigo-600 font-medium">Hnc Multi Speciality Hospital, Mattannur</p>
+                            <p class="text-gray-700 text-sm mt-1">Focused on a specific project, gaining initial exposure to healthcare operations and management structure (aligned with MBA focus).</p>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="timeline-item pb-6 relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">November 2023 - June 2024</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Student Intern (Young Innovation Program 6.0)</h3>
+                            <p class="text-indigo-600 font-medium">Government of Kerala and GTech Mulearn</p>
+                            <p class="text-gray-700 text-sm mt-1">Participated in a key state-level innovation program, focusing on developing and implementing innovative solutions.</p>
+                        </div>
+
+                        <!-- Item 5 -->
+                        <div class="timeline-item relative">
+                            <div class="timeline-dot"></div>
+                            <p class="text-sm text-gray-500">November 2023 - March 2024</p>
+                            <h3 class="text-lg font-semibold text-gray-900">Student Intern (Mechanical Engineering)</h3>
+                            <p class="text-indigo-600 font-medium">Central Institute of Petrochemicals Engineering & Technology (CIPET)</p>
+                            <p class="text-gray-700 text-sm mt-1">Applied mechanical engineering principles and gained insight into petrochemical processing and standards.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-center text-gray-500 text-sm">
+            <p>&copy; Muhammed Nihal P. All rights reserved.  </p>
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
